@@ -2,7 +2,7 @@
 
 **Information Systems student focused on IT, cloud, cybersecurity, and business technology.**
 
-I'm currently studying at Howard Community College and preparing to transfer to the University of Maryland for Information Systems. I use GitHub to document projects I build while learning — portfolio websites, small business sites, cloud labs, and future homelab/cybersecurity projects.
+Preparing to transfer to the University of Maryland for Information Systems. I use GitHub to document the projects I build while learning — portfolio websites, small-business sites, cloud labs, and homelab/cybersecurity projects.
 
 ---
 
