@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/dino-run-square.gif" width="260" height="260" alt="Dinosaur jumping over obstacles" />
+</p>
+
 # Hi, I'm Ammaar Rehman
 
 **Information Systems student focused on IT, cloud, cybersecurity, and business technology.**
