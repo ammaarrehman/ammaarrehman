@@ -13,7 +13,7 @@ Preparing to transfer to the University of Maryland for Information Systems. I u
 ## About me
 
 - Incoming Information Systems student at the University of Maryland
-- Cloud & AI Ops Intern at NextGen Cyber Initiative
+- Cloud & AI Ops Intern at NextGen Consulting Inc.
 - AWS Certified Cloud Practitioner
 - Interested in cloud computing, cybersecurity, AI operations, networking, and public-sector technology
 - Building practical projects through personal work and NightStar Labs
@@ -115,7 +115,7 @@ My personal portfolio site for showcasing projects, experience, and technical gr
 
 ## Experience
 
-### Cloud & AI Ops Intern — NextGen Cyber Initiative
+### Cloud & AI Ops Intern — NextGen Consulting Inc.
 
 Supporting cloud and AI workflows using AWS services, Claude, VS Code, backend troubleshooting, testing, and documentation. My work focuses on translating technical issues into clear steps, supporting internal systems, and improving operational workflows.
 
