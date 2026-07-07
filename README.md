@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/dino-run-square.gif" width="260" height="260" alt="Dinosaur jumping over obstacles" />
+  <img src="assets/higuruma.gif" width="420" alt="Anime profile GIF" />
 </p>
 
 <h1 align="center">Hi, I'm Ammaar Rehman</h1>
