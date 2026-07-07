@@ -126,14 +126,10 @@ My personal portfolio site for showcasing projects, experience, and technical gr
 
 ---
 
-## GitHub stats
+## GitHub activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ammaarrehman&show_icons=true&theme=github_dark&hide_border=true" alt="Ammaar's GitHub stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ammaarrehman&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ammaarrehman&theme=github-dark&hide_border=true" alt="Ammaar's GitHub activity graph" />
 </p>
 
 ---
