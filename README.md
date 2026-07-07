@@ -119,7 +119,7 @@ My personal portfolio site for showcasing projects, experience, and technical gr
 
 Supporting cloud and AI workflows using AWS services, Claude, VS Code, backend troubleshooting, testing, and documentation. My work focuses on translating technical issues into clear steps, supporting internal systems, and improving operational workflows.
 
-### IT Ops Intern — NextGen Cyber Initiative
+### IT Ops Intern — NextGen Consulting Inc.
 
 Supported IT operations, account configuration, mobile app testing, user troubleshooting, and internal documentation.
 
