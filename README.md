@@ -2,143 +2,93 @@
   <img src="assets/higuruma.gif" width="420" alt="Anime profile GIF" />
 </p>
 
-# Hi, I'm Ammaar Rehman
+<h1 align="center">Ammaar Rehman</h1>
 
-**Information Systems student focused on IT, cloud, cybersecurity, AI tools, and infrastructure.**
+<p align="center">
+  Cyber security · cloud · homelab · AI workflows<br />
+  Ellicott City, MD
+</p>
 
-Preparing to transfer to the University of Maryland for Information Systems. I use GitHub to document the projects I build while learning — cloud labs, homelab infrastructure, AI workflow tools, cybersecurity projects, and portfolio websites.
-
----
-
-## About me
-
-- Incoming Information Systems student at the University of Maryland
-- Cloud & AI Ops Intern at NextGen Consulting Inc.
-- AWS Certified Cloud Practitioner
-- Interested in cloud computing, cybersecurity, AI operations, networking, and public-sector technology
-- Building practical projects through personal work and NightStar Labs
-- Portfolio: [ammaarrehman.com](https://ammaarrehman.com)
-- LinkedIn: [linkedin.com/in/ammaarrehman](https://www.linkedin.com/in/ammaarrehman)
+<p align="center">
+  <a href="https://ammaarrehman.github.io/"><img src="https://img.shields.io/badge/portfolio-ammaarrehman.github.io-f454a6?style=flat-square" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/ammaarrehman/"><img src="https://img.shields.io/badge/linkedin-ammaarrehman-1a1a1a?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:ammaarrehmanf@gmail.com"><img src="https://img.shields.io/badge/email-ammaarrehmanf%40gmail.com-1a1a1a?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
 
-## Current focus
+```text
+ammaar@github ~ % neofetch
 
-- Building and documenting my Raspberry Pi homelab
-- Improving my personal portfolio website
-- Creating cloud infrastructure projects with AWS and Terraform
-- Learning networking, Linux, cybersecurity, and monitoring tools
-- Building AI-assisted workflows using Claude and Google Workspace
+ROLE     Cyber Security Analyst  // Cyber Ready Clinic, internship cohort
+ROLE     Cloud & AI Operations Intern  // NextGen Consulting
+EDU      Howard CC, A.A. (Dec 2026)  ->  UMD Smith, B.S. Information Systems (Jan 2027)
+CERTS    AWS Certified Cloud Practitioner  ·  CompTIA Tech+
+LAB      2 x Raspberry Pi 5  ·  HA DNS  ·  Prometheus / Grafana  ·  Tailscale
+```
 
----
+I build things, test them honestly, and write them up. Most of what I learn happens in
+a two-node Raspberry Pi homelab, in cloud labs on AWS, and in small AI workflows built
+with Claude. Every project here has a README that explains what I did, what broke, and
+what I'd change.
 
-## Skills & tools
+## Featured work
 
-**Cloud and infrastructure**  
-AWS · Terraform · Linux · Docker · GitHub · Git
+| Project | What it is | Built with |
+|---|---|---|
+| [**trading-lab**](https://github.com/ammaarrehman/trading-lab) | Seven popular trading strategies, each tested against pass/fail rules committed to git *before* any data was pulled. Backtests built to catch their own bugs, run once. All seven rejected, $0 lost. | Python, backtesting, CI self-tests |
+| [**homelab / ha-dns**](https://github.com/ammaarrehman/homelab/tree/main/ha-dns) | High-availability DNS across two Pi 5 nodes: AdGuard Home + Unbound behind a keepalived floating IP. Failover and failback tested in both directions, config synced every 10 minutes. | keepalived, AdGuard Home, Unbound, Docker |
+| [**claude-intake-triage**](https://github.com/ammaarrehman/claude-intake-triage) | Turns free-text help requests into structured, reviewable records for community orgs. A 15-case eval harness took primary accuracy from 93% to 100% and multi-need coverage from 0% to 90%. Staff review every row. | Claude API, Apps Script, Google Sheets, Python |
+| [**terraform-aws-static-site**](https://github.com/ammaarrehman/homelab/tree/main/terraform-aws-static-site) | A private S3 bucket served over HTTPS through CloudFront with Origin Access Control, provisioned entirely with Terraform. One command up, one command down. | Terraform, S3, CloudFront, AWS Budgets |
+| [**ammaarrehman.github.io**](https://github.com/ammaarrehman/ammaarrehman.github.io) | My portfolio: a terminal you can boot, a dot orb that warps you to a walkable pixel island, no frameworks. | HTML, CSS, JavaScript, canvas |
 
-**Monitoring and networking**  
-Prometheus · Grafana · Tailscale · AdGuard Home · Unbound · Uptime Kuma
+The rest of the homelab (DNS filtering, uptime monitoring, metrics, a rack dashboard, Tailscale
+remote access) lives in [**homelab**](https://github.com/ammaarrehman/homelab).
 
-**AI and automation**  
-Claude API · Google Apps Script · Google Sheets · Python
+## Stack
 
-**Web and scripting**  
-HTML · CSS · JavaScript · Bash
+<p>
+  <img src="https://img.shields.io/badge/AWS-1a1a1a?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Terraform-1a1a1a?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Docker-1a1a1a?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-1a1a1a?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
+  <img src="https://img.shields.io/badge/Prometheus-1a1a1a?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-1a1a1a?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Tailscale-1a1a1a?style=flat-square&logo=tailscale&logoColor=white" alt="Tailscale" />
+  <img src="https://img.shields.io/badge/Python-1a1a1a?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-1a1a1a?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Claude%20API-1a1a1a?style=flat-square&logo=anthropic&logoColor=white" alt="Claude API" />
+  <img src="https://img.shields.io/badge/Git-1a1a1a?style=flat-square&logo=git&logoColor=white" alt="Git" />
+</p>
 
----
+**Security:** NIST Cybersecurity Framework · CIS Controls · Ready5 / Discover5 readiness
+assessments · EDR/MDR, MFA and Conditional Access, SPF/DKIM/DMARC, DNS filtering
 
-## Featured projects
+## Certifications
 
-### Claude Intake Triage Assistant
-
-A Claude-powered workflow that turns free-text community help requests into structured, reviewable records.
-
-**Built with:** Claude API, Google Forms, Google Apps Script, Google Sheets, Python
-
-**Highlights:**
-
-- Extracts primary need, secondary needs, urgency, summary, next step, follow-up questions, and human-review flag
-- Includes a README, staff runbook, safety notes, screenshots, and demo
-- Uses a Python evaluation harness with 15 test cases
-- Improved multi-need coverage from 0% to 90%
-- Reached 100% classification accuracy across the scoped test set
-
-**Repository:** [claude-intake-triage](https://github.com/ammaarrehman/claude-intake-triage)
-
----
-
-### Raspberry Pi Homelab
-
-A two-node Raspberry Pi homelab for DNS filtering, monitoring, dashboards, and secure remote access.
-
-**Built with:** Raspberry Pi, Linux, Docker, AdGuard Home, Unbound, Tailscale, Uptime Kuma, Prometheus, Grafana
-
-**Highlights:**
-
-- Local DNS filtering with AdGuard Home
-- Recursive DNS resolution with Unbound
-- Service monitoring with Uptime Kuma
-- Metrics dashboards with Prometheus and Grafana
-- Secure remote access with Tailscale
-- Documented architecture, setup notes, constraints, and screenshots
-
-**Repository:** [homelab](https://github.com/ammaarrehman/homelab)
-
----
-
-### AWS Static Site with Terraform
-
-Infrastructure-as-code project for deploying a private S3 static website behind CloudFront.
-
-**Built with:** AWS S3, CloudFront, Origin Access Control, Terraform, ACM, AWS Budgets
-
-**Highlights:**
-
-- Private S3 bucket behind CloudFront
-- CloudFront Origin Access Control
-- Terraform-based repeatable deployment
-- Budget-conscious design using AWS free-tier-friendly choices
-- Screenshots and documentation included
-
----
-
-### Portfolio Website
-
-My personal portfolio site for showcasing projects, experience, and technical growth.
-
-**Built with:** HTML, CSS, JavaScript, GitHub Pages
-
-**Website:** [ammaarrehman.com](https://ammaarrehman.com)
-
----
+- **AWS Certified Cloud Practitioner** (CLF-C02) · Jun 2026
+- **CompTIA Tech+** · Aug 2026
+- **Ready5 Practitioner** · in progress, awarded on Cyber Ready Clinic cohort completion
+- **Anthropic courses** · Claude 101, Claude Code 101, Claude Platform 101, Building with
+  the Claude API, Introduction to Model Context Protocol, AI Fluency: Framework & Foundations
 
 ## Experience
 
-### Cloud & AI Ops Intern — NextGen Consulting Inc.
+**Cyber Security Analyst** · Cyber Ready Clinic, internship cohort · Sep 2026 – present<br />
+Assessing nonprofit clients' cyber readiness with the Discover5 and Ready5 frameworks,
+mapping gaps to NIST CSF and CIS Controls, alongside senior practitioners.
 
-Supporting cloud and AI workflows using AWS services, Claude, VS Code, backend troubleshooting, testing, and documentation. My work focuses on translating technical issues into clear steps, supporting internal systems, and improving operational workflows.
+**Cloud & AI Operations Intern** · NextGen Consulting · May 2025 – present<br />
+Cloud and AI-assisted workflows with AWS, Claude, and AWS Kiro: error investigation,
+issue triage, service testing, and support docs other staff reuse.
 
-### IT Ops Intern — NextGen Consulting Inc.
+**IT Operations Intern** · NextGen Consulting · Jun 2024 – May 2025<br />
+Resolved 200+ user issues across account setup, access, and mobile app testing.
 
-Supported IT operations, account configuration, mobile app testing, user troubleshooting, and internal documentation.
+## Also
 
----
+FBLA State Champion and Regional Champion, National Qualifier · Dean's List, Howard
+Community College · Maryland House of Delegates, volunteer staff
 
-## Certifications & learning
-
-- AWS Certified Cloud Practitioner
-- Claude 101
-- Claude Code 101
-- Claude Platform 101
-- Building with the Claude API
-- Introduction to Model Context Protocol
-- AI Fluency: Framework & Foundations
-
----
-
-## What I'm building toward
-
-I'm working toward cloud, cybersecurity, and AI operations roles where I can build practical systems, document them clearly, and support real users.
-
-My goal is to keep improving through hands-on projects, strong documentation, and honest iteration.
+<p align="center"><sub>Working toward cloud and cybersecurity roles, especially in public-sector technology.</sub></p>
