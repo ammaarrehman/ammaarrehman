@@ -69,15 +69,15 @@ assessments · EDR/MDR, MFA and Conditional Access, SPF/DKIM/DMARC, DNS filterin
 
 - **AWS Certified Cloud Practitioner** (CLF-C02) · Jun 2026
 - **CompTIA Tech+** · Aug 2026
-- **Ready5 Practitioner** · in progress, awarded on Cyber Ready Clinic cohort completion
+- **Ready5 Practitioner** · in progress, expected Nov 2026 on Cyber Ready Clinic cohort completion
 - **Anthropic courses** · Claude 101, Claude Code 101, Claude Platform 101, Building with
   the Claude API, Introduction to Model Context Protocol, AI Fluency: Framework & Foundations
 
 ## Experience
 
 **Cyber Security Analyst** · Cyber Ready Clinic, internship cohort · Sep 2026 – present<br />
-Assessing nonprofit clients' cyber readiness with the Discover5 and Ready5 frameworks,
-mapping gaps to NIST CSF and CIS Controls, alongside senior practitioners.
+Supporting nonprofit cyber-readiness assessments with the Discover5 and Ready5 frameworks,
+with findings aligned to NIST CSF and CIS Controls, alongside senior practitioners.
 
 **Cloud & AI Operations Intern** · NextGen Consulting · May 2025 – present<br />
 Cloud and AI-assisted workflows with AWS, Claude, and AWS Kiro: error investigation,
