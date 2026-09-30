@@ -24,11 +24,11 @@ ROLE     Cyber Security Analyst  // Cyber Ready Clinic, internship cohort
 ROLE     Cloud & AI Operations Intern  // NextGen Consulting
 EDU      Howard CC, A.A. (Dec 2026)  ->  UMD Smith, B.S. Information Systems (Jan 2027)
 CERTS    AWS Certified Cloud Practitioner  ·  CompTIA Tech+
-LAB      2 x Raspberry Pi 5  ·  HA DNS  ·  Prometheus / Grafana  ·  Tailscale
+LAB      v1: two-node HA DNS (retired)  ·  v2: rebuilding as one always-on Pi 5
 ```
 
 I build things, test them honestly, and write them up. Most of what I learn happens in
-a two-node Raspberry Pi homelab, in cloud labs on AWS, and in small AI workflows built
+my Raspberry Pi homelab, in cloud labs on AWS, and in small AI workflows built
 with Claude. Every project here has a README that explains what I did, what broke, and
 what I'd change.
 
@@ -37,13 +37,13 @@ what I'd change.
 | Project | What it is | Built with |
 |---|---|---|
 | [**trading-lab**](https://github.com/ammaarrehman/trading-lab) | Seven popular trading strategies, each tested against pass/fail rules committed to git *before* any data was pulled. Backtests built to catch their own bugs, run once. All seven rejected, $0 lost. | Python, backtesting, CI self-tests |
-| [**homelab / ha-dns**](https://github.com/ammaarrehman/homelab/tree/main/ha-dns) | High-availability DNS across two Pi 5 nodes: AdGuard Home + Unbound behind a keepalived floating IP. Failover and failback tested in both directions, config synced every 10 minutes. | keepalived, AdGuard Home, Unbound, Docker |
+| [**homelab / ha-dns**](https://github.com/ammaarrehman/homelab/tree/main/ha-dns) | Homelab v1 (retired September 2026): AdGuard Home on two Pi 5 nodes behind a keepalived floating IP, filtering DNS for my own devices. Failover and failback tested in both directions, config synced every 10 minutes. | keepalived, AdGuard Home, Docker |
 | [**claude-intake-triage**](https://github.com/ammaarrehman/claude-intake-triage) | Turns free-text help requests into structured, reviewable records for community orgs. A 15-case eval harness took primary accuracy from 93% to 100% and multi-need coverage from 0% to 90%. Staff review every row. | Claude API, Apps Script, Google Sheets, Python |
 | [**terraform-aws-static-site**](https://github.com/ammaarrehman/homelab/tree/main/terraform-aws-static-site) | A private S3 bucket served over HTTPS through CloudFront with Origin Access Control, provisioned entirely with Terraform. One command up, one command down. | Terraform, S3, CloudFront, AWS Budgets |
 | [**ammaarrehman.github.io**](https://github.com/ammaarrehman/ammaarrehman.github.io) | My portfolio: a terminal you can boot, a dot orb that warps you to a walkable pixel island, no frameworks. | HTML, CSS, JavaScript, canvas |
 
-The rest of the homelab (DNS filtering, uptime monitoring, metrics, a rack dashboard, Tailscale
-remote access) lives in [**homelab**](https://github.com/ammaarrehman/homelab).
+The homelab is offline while I rebuild it as one Raspberry Pi 5 set up from Git with Ansible.
+The v1 projects (DNS filtering, uptime monitoring, metrics, Tailscale remote access) are documented in [**homelab**](https://github.com/ammaarrehman/homelab).
 
 ## Stack
 
